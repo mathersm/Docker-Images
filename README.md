@@ -8,8 +8,15 @@ https://hub.docker.com/r/mathersm
 | linux-common |
 |---|
 | https://hub.docker.com/r/mathersm/linux-common/ |
-|---|
-| Ubuntu 18.04 |
+| Base = ubuntu:18.04 |
 | build-essential |
 | cmake |
 | git |
+
+| penguin-gcc |
+|---|
+| https://hub.docker.com/r/mathersm/penguin-gcc |
+| Base = mathersm/linux-common |
+| g++-8 |
+| Penguin |
+
